@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>@title</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF8" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="wrapper" class="container">
+        <div class="row">
+          <div class="span12">
+            <div id="header" class="well-large">
+              <h2>@title <small>@sub_title</small></h2>
+            </div>
+          </div>
+        </div>      
+      <div class="row">
+        <!--Sidebar-->
+        <div class="span3">
+          <div id="sidebar" class="sidebar-nav bs-docs-sidebar">
+            <ul class="nav nav-list bs-docs-sidenav">
+              @nav_list
+            </ul>
+          </div>
+        </div>
+        <!--End Sidebar-->
+
+        <!--Content-->
+        <div class="span9">
+          <div id="content">
+            @content
+          </div>
+        </div>
+        <!--End Content-->
+      </div>
+    </div>
+  <footer id="footer">
+    @footer
+  </footer>
+    <script src="js/jquery-1.8.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+  </body>
+</html>
