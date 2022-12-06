@@ -14,6 +14,8 @@ I need a simple web version my mobile app [Understanding Buddhism (認識佛教)
 - parse the `.plist` file and fit them into the `template.htm`
 - use bootstrap as the css framework
 
+🔗 [source code](https://github.com/hoishing/ruby-SSG)
+
 ## Generated Contents
 
 - [認識佛教 - 粵語版](https://hoishing.github.io/ruby-SSG/index_zh.htm)
